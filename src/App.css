@@ -1,0 +1,22 @@
+body, html, #root {
+  height: 100%;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.ant-layout {
+  height: 100%;
+}
+
+.ant-layout-header {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+.ant-layout-sider {
+  position: fixed;
+  top: 64px;
+  left: 0;
+  height: calc(100% - 64px);
+}
